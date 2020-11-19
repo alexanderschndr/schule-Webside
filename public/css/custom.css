@@ -1,0 +1,253 @@
+body{
+  background: #FFFFFF;
+}
+
+.custom-header-background{
+  background: #00508C;
+  color: white;
+}
+
+.custom-grey{
+  background-color: #DCDCE4;
+}
+
+.custom-white{
+  color:white;
+}
+
+.custom-grey2{
+  background-color: #F8F8F9;
+}
+.custom-grey-report{
+    background-color: #E2E2E3;
+}
+.custom-text-black{
+  color:black;
+}
+
+.custom-logo{
+  max-width: 33px;
+  min-width: 33px;
+}
+
+.custom-btn-grey{
+    background-color: #DCDCE4;
+    border: none;
+    width: 45%;
+    height: 35px;
+    font-size: 16px;
+    color: black;
+}
+.custom-btn{
+    background-color: #00508C;
+    font-size: 16px;
+    border: none;
+    color:white;
+}
+a.custom-btn:hover{
+    color: white;
+  background-color: #00508C;
+  border: none;
+  border-radius: 0px;
+}
+
+.custom-btn-delete {
+  background-color: #00508C;
+  border: none;
+  border-radius: 0px;
+  color: black;
+}
+
+.custom-width {
+  min-width: 150px;
+}
+a.custom-btn-grey:hover{
+     color: black;
+}
+.card-header:first-child{
+  border-radius: 0;
+}
+
+.no-border-radius{
+  border-radius: 0;
+}
+.custom-border{
+  border: 2px solid #00508C;
+}
+.no-border{
+  border: none;
+}
+
+.custom-nav, a:visited {
+  position: relative;
+}
+
+.custom-nav:after, a:visited:after{
+  content: '';
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: white;
+  transition: 0.2s;
+}
+
+.custom-nav:hover:after, .custom-nav:visited:hover:after {
+    width: 100%;
+}
+
+.custom-nav.block, .custom-nav:visited.block {
+  display: block;
+  padding: 0.5em;
+}
+.custom-nav.block:hover, .custom-nav:visited.block:hover {
+  background: #00b10f;
+}
+
+.custom-nav-link{
+  padding: 0;
+}
+
+.px5-top{
+  padding-top: 5px;
+}
+
+.custom-space{
+  margin-left: 15px;
+}
+
+.custom-table-spacing{
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+.custom-card-body{
+  padding:55px;
+}
+a.custom-card:hover{
+    background-color: #00508C;
+    color: white;
+}
+
+.custom-calendar{
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding-bottom: 95px;
+}
+
+.custom-calendar-approved{
+  border-left: 2px solid #00508C;
+}
+
+.custom-calendar-denied{
+  border-left: 2px solid #DC3545;
+}
+
+.custom-calendar-approved:hover{
+  background-color: #00508C;
+  border-color: #00508C;
+  text-decoration: none;
+  color:white;
+}
+
+.custom-calendar-denied:hover{
+  background-color: #DC3545;
+  border-color: #DC3545;
+  text-decoration: none;
+  color:white;
+}
+
+a.custom-link{
+  color:black;
+}
+
+.custom-text-border-100 {
+  background-color: white;
+}
+
+
+/* Einträge */
+
+.custom-entry-header {
+  background-color: #DCDCE4;
+}
+
+.custom-entry-card {
+  background-color: #F8F8F9;
+}
+
+.custom-textarea {
+  min-height: 200px;
+}
+
+.list-group-item {
+  padding: 5px 0px 5px 0px;
+  border: none;
+}
+
+.boxcontent {
+  padding: 5px 3px;
+  border: 1px solid #CED4DA;
+}
+
+.boxcontent-heigth {
+  min-height: 100px;
+}
+
+.custom-item:hover {
+  background-color: #E7E7E8;
+}
+.custom-item:active {
+  background-color: #00508C;
+  color: white;
+}
+
+
+/* Klasse um die verdammten Ecken der Beschreibung eckig zu machen */
+
+/* Toolleiste */
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+  border-radius: 0;
+}
+
+/* Textfeld an sich */
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable {
+  border-radius: 0;
+  min-height: 150px;
+  max-height: 500px;
+}
+
+/* pagination */
+
+
+/* jeder *Knopf* */
+.page-link:not(:disabled):not(.disabled) {
+  background-color: #F8F8F9;
+  border-color: #BDC3C9;
+  border-radius: 0px;
+  font-size: 15px;
+  height: 35px;
+  width: 35px;
+}
+.page-link:not(:disabled):not(.disabled):hover {
+  background-color: #E7E7E8;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+/* Aktiv */
+.page-item.active .page-link {
+  background-color: #00508C;
+  border-color: #00508C;
+  border-radius: 0px;
+}
+.page-item.active .page-link:hover {
+  font-weight: bolder;
+  background-color: #00508C;
+}
+
+/* Disabled */
+.page-item.disabled .page-link {
+  background-color: #D8D8D7;
+  border-radius: 0px;
+}
